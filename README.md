@@ -6,7 +6,7 @@ I build for low‑resource languages and open‑source infrastructure. My work s
 
 ---
 
-### 🧠 What I'm Building Now  
+###  What I'm Building Now  
 
 #### [HiliSenti](https://github.com/jjjardev/hilisenti) — First Sentiment Dataset for Hiligaynon  
 
@@ -25,14 +25,14 @@ I'm writing the academic paper (targeting ACL) and will release the fine‑tuned
 
 ---
 
-### 🔧 How I Work  
+###  How I Work  
 
 - I believe good software doesn't need expensive infrastructure. I push free tools as far as they'll go, whether that means surviving Google Drive's 15 GB limit with a custom checkpoint‑pruning workflow or shipping a single‑file Python tool that needs nothing but the standard library.  
 - I care about **reproducibility**, **resource‑efficiency**, and **building things that fill real gaps** — especially for languages and communities that have been left out of the AI conversation.  
 
 ---
 
-### 🛠️ Tech Stack  
+###  Tech Stack  
 
 **Languages:** `Python` `SQL` `HTML` `CSS` `JavaScript` `Bash`  
 **ML & Data:** `PyTorch` `Transformers` `Hugging Face` `scikit‑learn` `pandas` `NumPy`  
@@ -41,7 +41,7 @@ I'm writing the academic paper (targeting ACL) and will release the fine‑tuned
 
 ---
 
-### 📂 Featured Work  
+###  Featured Work  
 
 | Project | Description |
 |---------|-------------|
@@ -50,7 +50,7 @@ I'm writing the academic paper (targeting ACL) and will release the fine‑tuned
 
 ---
 
-### 📬 Contact  
+###  Contact  
 
 - **Hugging Face:** [jjjardev/hilisenti‑v1](https://huggingface.co/datasets/jjjardev/hilisenti-v1)  
 - **Email:** `jj.jarder.dev@gmail.com`  
