@@ -1,5 +1,3 @@
----
-
 ## Jessie James T. Jarder
 
 **BSIT — Negros Occidental, Philippines**
