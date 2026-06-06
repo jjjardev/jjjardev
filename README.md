@@ -1,57 +1,53 @@
-## Hi, I'm Jessie James T. Jarder  
+---
 
-**BSIT | Negros Occidental, Philippines**  
+## Jessie James T. Jarder
 
-I build for low‑resource languages and open‑source infrastructure. My work sits at the intersection of NLP research, systems engineering, and tools that run anywhere with zero dependencies.
+**BSIT — Negros Occidental, Philippines**
+
+Built the first sentiment dataset for Hiligaynon and a sub-2B LLM orchestration system that runs on a 10-year-old laptop. Focused on low-resource NLP and edge AI.
 
 ---
 
-###  What I'm Building Now  
+### Headline Work
 
-#### [HiliSenti](https://github.com/jjjardev/hilisenti) — First Sentiment Dataset for Hiligaynon  
+#### [HiliSenti](https://github.com/jjjardev/hilisenti) — First sentiment dataset for Hiligaynon
 
-[![Hugging Face Dataset](https://img.shields.io/badge/🤗%20Dataset-HiliSenti--v1-yellow)](https://huggingface.co/datasets/jjjardev/hilisenti-v1)
+[![HF Dataset](https://img.shields.io/badge/🤗%20Dataset-HiliSenti--v1-yellow)](https://huggingface.co/datasets/jjjardev/hilisenti-v1)
 [![DOI](https://img.shields.io/badge/DOI-10.57967%2Fhf%2F8737-blue)](https://doi.org/10.57967/hf/8737)
-[![Data License: CC BY‑NC‑SA 4.0](https://img.shields.io/badge/Data%20License-CC%20BY--NC--SA%204.0-lightgrey)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Code License: MIT](https://img.shields.io/badge/Code%20License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-- **23 337** real‑world Hiligaynon sentences labeled for sentiment (Negative, Neutral, Positive)  
-- Multi‑domain corpus: news, social media, translated reviews, and synthetic edge‑case data  
-- Fine‑tuned **XLM‑RoBERTa‑large** baseline — **93.5 % accuracy, 93.4 % macro F1**  
-- Entire pipeline built on **free Colab** + **free Google Drive** — zero paid APIs, zero cloud credits  
-- Dataset on Hugging Face with a permanent DOI; training code fully open‑source  
+- 23,337 sentences · 3 classes · XLM-RoBERTa-large at **93.5% accuracy / 93.4% macro F1**
+- Multi-domain corpus: news, social media, translated reviews, synthetic edge cases
+- Built on free Colab + free Google Drive; dataset on HF with permanent DOI
+- ACL submission in progress
 
-I'm writing the academic paper (targeting ACL) and will release the fine‑tuned model adapter soon.
+#### [edge-llm-orchestration](https://github.com/jjjardev/edge-llm-orchestration) — LLM orchestration under hard edge constraints
 
----
-
-###  How I Work  
-
-- I believe good software doesn't need expensive infrastructure. I push free tools as far as they'll go, whether that means surviving Google Drive's 15 GB limit with a custom checkpoint‑pruning workflow or shipping a single‑file Python tool that needs nothing but the standard library.  
-- I care about **reproducibility**, **resource‑efficiency**, and **building things that fill real gaps** — especially for languages and communities that have been left out of the AI conversation.  
+- Sub-2B models (`qwen2.5:1.5b`, `LiquidAI/lfm2.5-1.2b-instruct`) via Ollama
+- i3-1305U + 1.5 GB free RAM + no cloud · single-file Python CLI with 4 modes
+- Neuro-symbolic per-slot scope-locked validator with empirical v0→v3 failure taxonomy
+- ~2,200 lines of docs in `docs/`: scope, architecture, validation, history, related work, reflection
 
 ---
 
-###  Tech Stack  
+### What I Work On
 
-**Languages:** `Python` `SQL` `HTML` `CSS` `JavaScript` `Bash`  
-**ML & Data:** `PyTorch` `Transformers` `Hugging Face` `scikit‑learn` `pandas` `NumPy`  
-**Systems & DevOps:** `Linux (Ubuntu daily driver)` `Git` `Docker` `SSH` `Colab` `SQLite`  
-**Strengths:** NLP for low‑resource languages · dataset creation & curation · fine‑tuning large Transformer models · building standalone, zero‑dependency Python tools · pragmatic problem‑solving under hard constraints  
-
----
-
-###  Featured Work  
-
-| Project | Description |
-|---------|-------------|
-| **[HiliSenti](https://github.com/jjjardev/hilisenti)** | First multi‑domain sentiment dataset for Hiligaynon + training pipeline |
-| *Zero‑dep Python tools* | I design single‑file Python utilities that run on nothing but the standard library — no `pip install`, no dependency chains. This philosophy keeps tools portable, secure, and trivially deployable on any machine with Python 3.10+. |
+- **Low-resource NLP for Filipino / Visayan languages** — dataset creation, baseline fine-tuning, evaluation rigor
+- **Edge AI orchestration** — small models, hardware-aware engineering, no-cloud deployments
+- **Zero-dependency tooling** — single-file Python utilities where the stdlib is enough
+- **Honest engineering** — I document what didn't work and why (see [reflection](https://github.com/jjjardev/edge-llm-orchestration/blob/main/docs/reflection.md))
 
 ---
 
-###  Contact  
+### Tech Stack
 
-- **Hugging Face:** [jjjardev/hilisenti‑v1](https://huggingface.co/datasets/jjjardev/hilisenti-v1)  
-- **Email:** `jj.jarder.dev@gmail.com`  
-- **Academic paper:** forthcoming (arXiv preprint expected mid‑2026)  
+- **ML / Data:** PyTorch · Transformers · Hugging Face · scikit-learn · pandas · NumPy
+- **Systems:** Linux (Ubuntu daily driver) · Docker · SSH · Git · Colab · SQLite · Ollama
+- **Languages:** Python · SQL · Bash · HTML/CSS/JS (demo UIs only)
+- **Models fine-tuned or deployed:** XLM-RoBERTa-large · Qwen2.5-1.5B · LFM2.5-1.2B
+
+---
+
+### Contact
+
+- **Email:** jj.jarder.dev@gmail.com
+- **Hugging Face:** [jjjardev](https://huggingface.co/jjjardev)
